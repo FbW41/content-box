@@ -1,0 +1,38 @@
+.container {
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main-heading {
+  border: 1px solid black;
+}
+
+p {
+  border: 1px solid black;
+  width: 50%;
+  background: cyan;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  border: 1px solid;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1,
+h2 {
+  border: 1px solid black;
+  text-align: center;
+  background: pink;
+  display: inline-block;
+  /* margin-left: 50px; */
+}
+
+footer {
+  border: 1px solid black;
+}
