@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  font-size: 2rem;
+  background: teal;
+  color: white;
+  width: 80%;
+  padding: 5rem;
+  margin: 0 auto;
+  /* height: 80vh; */
+  /* overflow: hidden; */
+}
+
+.intro-content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* h1 {
+  border: 1px solid black;
+  text-align: center;
+}
+
+p {
+  border: 1px solid black;
+} */
