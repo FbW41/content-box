@@ -1,3 +1,15 @@
+*,
+*::before,
+*::after {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 .container {
   border: 2px solid black;
   width: 50%;
@@ -6,13 +18,15 @@
 
 .main-heading {
   border: 1px solid black;
+  margin: 20px auto;
+  width: 100%;
 }
 
 p {
   border: 1px solid black;
   width: 50%;
   background: cyan;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 20px;
   text-align: center;
 }
@@ -30,9 +44,17 @@ h2 {
   text-align: center;
   background: pink;
   display: inline-block;
-  /* margin-left: 50px; */
+}
+
+h1 {
+  width: 50%;
+}
+
+h2 {
+  width: 40%;
 }
 
 footer {
   border: 1px solid black;
+  margin: 20px auto;
 }
